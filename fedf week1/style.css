@@ -1,0 +1,86 @@
+/* Center entire content */ 
+body { 
+  font-family: italic, sans-serif; 
+  background: #f4f6f9; 
+  margin: 0; 
+  height: 100vh; 
+  display: flex; 
+  justify-content: center;   /* horizontal center */ 
+  align-items: center;       /* vertical center */ 
+} 
+ 
+/* Main container */ 
+.container { 
+  width: 90%; 
+  max-width: 900px; 
+  background: white; 
+  padding: 25px; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2); 
+  text-align: center; 
+} 
+ 
+/* Heading */ 
+h1 { 
+  color: #1a5c21; 
+  margin-bottom: 20px; 
+} 
+ 
+/* Form inputs */ 
+.form input, .form select { 
+  padding: 8px; 
+  margin: 5px; 
+  width: 150px; 
+} 
+ 
+/* Button group */ 
+.btn-group { 
+  margin-top: 10px; 
+} 
+ 
+/* Buttons */ 
+button { 
+  padding: 8px 15px; 
+  margin: 5px; 
+  background: #c0157c; 
+  color: rgb(9, 1, 31); 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 5px; 
+} 
+ 
+button:hover { 
+  background: #0ce764; 
+} 
+ 
+/* Table container */ 
+.table-container { 
+  margin-top: 20px; 
+  max-height: 300px; 
+  overflow-y: auto;   /* scroll for large data */ 
+} 
+ 
+/* Table styling */ 
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+} 
+ 
+th, td { 
+  padding: 10px; 
+  text-align: center; 
+} 
+ 
+th { 
+  background: #c01515; 
+  color: rgb(23, 184, 224); 
+} 
+ 
+tr:nth-child(even) { 
+  background: #a5d40a; 
+} 
+ 
+/* Highlight updates */ 
+.updated { 
+  background-color: rgb(255, 196, 0) !important; 
+}
